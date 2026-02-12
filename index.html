@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <div class="wrapper">
+
+        <section class="section_1">
+            <div class="container">
+                <div class="section_1_inner">
+
+                    <button class="story-title">
+                        <img src="images/untitled_story1_orange.svg" alt="Untitled Story Icon">
+                        Hyundai India exports cross 3.7 mil...
+                    </button>
+
+                    <button class="cloud-button">
+                        <img src="images/cloud_1.svg" alt="Cloud Save">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_2">
+            <div class="container">
+
+                <div class="tabs-container">
+                    <div class="tabs">
+                        <button class="tab tab_active">
+                            <p> Hyundai India Exports...</p>
+                            <div class="tab-close-wrapper"> 
+                                <img class="tab-close" src="images/krest_na_vkladkah_black.svg" data-hover="images/krest_na_vkladkah_hover.svg" alt="">
+                            </div>
+                        </button>
+
+
+                        <button class="tab tab_dop">
+                            <p> Hyundai India Exports...</p>
+                            <div class="tab-close-wrapper"> 
+                                <img class="tab-close" src="images/krest_na_vkladkah.svg" data-hover="images/krest_na_vkladkah_hover.svg" alt="">
+                            </div>
+                        </button>
+
+                        <div class="tab_dop_frontier"></div>
+
+                        <button class="tab tab_dop">
+                            <p> Hyundai India Exports...</p>
+                            <div class="tab-close-wrapper"> 
+                                <img class="tab-close" src="images/krest_na_vkladkah.svg" data-hover="images/krest_na_vkladkah_hover.svg" alt="">
+                            </div>
+                        </button>
+
+                        <div class="tab_dop_frontier"></div>
+
+                        <button class="tab">
+                            <p> Hyundai India Exports...</p>
+                            <div class="tab-close-wrapper"> 
+                                <img class="tab-close" src="images/krest_na_vkladkah.svg" data-hover="images/krest_na_vkladkah_hover.svg" alt="">
+                            </div>
+                        </button>
+                        
+
+                        <button class="tab add-tab">
+                            <img class="add-tab-icon" src="images/plus_na_vkladku.svg" data-hover="images/plus_na_vkladku_white.svg" alt="">
+                        </button>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="section_3">
+            <div class="container">
+                <div class="search-wrapper">
+                    
+                    <div class="search-input-container">
+                        <img class="search-icon" src="images/lupa_statik.svg" alt="Search Icon" >
+                        <input class="search-input" type="text"  placeholder="Enter your request ...">
+                    </div>                    
+                    <div class="select-container_calendar">
+                        <img class="select-icon_calendar" src="images/calendar_static.svg" alt="Calendar">
+                        <div class="selected-option">Last 24 hours</div>
+                        <img class="select-arrow_calendar" src="images/strelochka_black_vniz.svg" alt="Arrow">
+                        
+                        <div class="search-select_calendar-dropdown">
+                            <div class="search-option" data-value="1">Last 1 hour</div>
+                            <div class="search-option" data-value="8">Last 8 hours</div>
+                            <div class="search-option active" data-value="24">Last 24 hours</div>
+                            <div class="search-option" data-value="3d">Last 3 days</div>
+                            <div class="search-option" data-value="14d">Last 14 days</div>
+
+                            <!-- Новый диапазонный слайдер -->
+                            <div class="search-option custom-option">
+                                <div class="custom-header">
+                                    <p>Custom</p>
+                                    <img class="custom-settings" src="images/settings_icon.svg" alt="Settings">
+                                </div>
+                                <div class="custom-slider-container">
+                                    <div class="custom-slider-track">
+                                        <div class="custom-slider-fill"></div>
+                                        <div class="custom-slider-thumb left-thumb"></div>
+                                        <div class="custom-slider-thumb right-thumb"></div>
+                                    </div>
+                                </div>
+                                <div class="custom-inputs">
+                                    <input class="custom-range-display" type="text" value="from 1h to Now" readonly>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="select-container_language">
+                        <img class="select-icon_language" src="images/zemlya_statik.svg" alt="Language" >
+                        <div class="selected-option">English, Norwegian</div>
+                        <img class="select-arrow_language" src="images/strelochka_black_vniz.svg" alt="Arrow" >
+                        <div class="search-select_language-dropdown">
+
+                            <div class="search-option" data-value="swedish">Swedish, Danish</div>
+                            <div class="search-option active" data-value="english">English, Norwegian</div>
+                            <div class="search-option" data-value="german">German, French</div>
+                            <div class="search-option" data-value="spanish">Spanish, Italian</div>
+                            <div class="search-option" data-value="finnish">Finnish, Dutch</div>
+
+                            <div class="search-option" data-value="swedish">Swedish, Danish</div>
+                            <div class="search-option" data-value="english">English, Norwegian</div>
+                            <div class="search-option" data-value="german">German, French</div>
+                            <div class="search-option" data-value="spanish">Spanish, Italian</div>
+                            <div class="search-option" data-value="finnish">Finnish, Dutch</div>
+
+                            <div class="search-option" data-value="swedish">Swedish, Danish</div>
+                            <div class="search-option" data-value="english">English, Norwegian</div>
+                            <div class="search-option" data-value="german">German, French</div>
+                            <div class="search-option" data-value="spanish">Spanish, Italian</div>
+                            <div class="search-option" data-value="finnish">Finnish, Dutch</div>
+                        </div>
+                    </div>
+                    
+                    <button class="search-button">
+                        <img src="images/go_statick.svg" alt="Go">
+                    </button>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="section_4">   
+            <div class="container">
+                <div class="section_4_inner">
+
+                    <div class="inner_search-result">
+                        <div class="search_polosa">
+                            <img src="images/polosa_static.svg" alt="">
+                        </div>
+                        <div class="search-result-card">
+                            <img class="search-lupa" src="images/lupa_statik.svg" alt="Search Icon">
+                            <p class="search-number">Search 1</p>
+                            <div class="search-poloska"></div>
+                            <p class="search-title">Di Maria Explica O Adeus À Seleção Argentina: «Não Sou O Messi»</p>
+                            <img class="search-add" src="images/podkova_one.svg" alt="">
+                            <p class="search-tag">Most Goals Scored</p>
+                            <img class="podkova_two" src="images/podkova_two.svg" alt="">
+                            <button class="search-expand">
+                                <img src="images/strelka_orange_vniz.svg" alt="Expand">
+                            </button>
+                        </div>
+                    </div>
+
+                    
+                    <div class="result-card-expanded">
+                        
+
+                        <div class="search-item">
+                            <input class="search-checkbox" type="checkbox" >
+                            <img class="search-thumbnail" src="images/news_preview.jpg" alt="News Preview">
+                            <div class="search-info">
+                                <p class="search-description"><span class="search-subtitle"> Hyundai India Exports Cross 3.7 Million Vehicles In 25 Years </span> <span class="search-description_none">- Under Torsdagen Flaggar Drottningholm Och Haga Slott På Halv Stång Då Under Torsdagen Flaggar Drottningholm Och Haga Slott På Halv Stång Då...</span> </p>
+                            </div>
+                                
+                            <div class="source-container">
+                                <p class="search-source">GameSpot</p>
+                                <div class="source_poloska"></div>
+                                <p class="search-time">07:44</p>
+                            </div>
+
+                            <button class="magnet_button">
+                                <img class="search-magnet" src="images/magnet_icon.svg" alt="Save">
+                            </button>
+
+                            <button class="search-dropdown">
+                                <img class="knopka_orange_vniz" src="images/knopka_orange_vniz.svg" alt="Dropdown">
+                            </button>
+
+
+
+                        </div>
+
+                        <div class="expanded-content">
+
+                            <div class="news-thumbnail_1container">
+                                <div class="news-thumbnail">
+                                    <img src="images/thumbnail_news.jpg" alt="News Preview">
+                                    <img src="images/thumbnail_news.jpg" alt="News Preview">
+                                </div>
+                            
+                                <div class="news-text-container">
+                                    <p class="news-text">
+                                        Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då
+
+                                        Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då
+
+
+                                        Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då
+
+                                        
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="news-comment_2container">
+    
+                                <div class="container_time-data">
+                                    <div class="gs-container">
+                                        <div class="gs">GS</div>
+                                        <div class="gamespot">GameSpot</div>
+                                    </div>
+    
+                                    <div class="container_time">
+                                        <img class="icon_calendar" src="images/icon_calendar.svg" alt="">
+                                        <p class="search-source_time">14 februar 2025</p>
+                                        <div class="source_poloska_w"></div>
+                                        <p class="search-time">07:44</p>
+                                    </div>
+                                </div>
+    
+                                <div class="comment-input-container">
+    
+                                    <input class="comment-input" type="text"  
+                                    placeholder="Tell the AI how to use that source...">
+                                    <img class="comment-icon" src="images/krest_na_input.svg" alt="Search Icon" >
+                                </div>
+    
+                                <button class="comment-send">
+                                    <img class="send_icon" src="images/send_icon.svg" alt="Send">
+                                </button>
+    
+                            </div>
+                        </div>
+
+
+                        <div class="search-item">
+                            <input class="search-checkbox" type="checkbox" >
+                            <img class="search-thumbnail" src="images/news_preview.jpg" alt="News Preview">
+                            <div class="search-info">
+                                <p class="search-description"><span class="search-subtitle"> Hyundai India Exports Cross 3.7 Million Vehicles In 25 Years </span> <span class="search-description_none">- Under Torsdagen Flaggar Drottningholm Och Haga Slott På Halv Stång Då Under Torsdagen Flaggar Drottningholm Och Haga Slott På Halv Stång Då...</span></p>
+                            </div>
+                                
+                            <div class="source-container">
+                                <p class="search-source">GameSpot</p>
+                                <div class="source_poloska"></div>
+                                <p class="search-time">07:44</p>
+                            </div>
+
+                            <button class="magnet_button">
+                                <img class="search-magnet" src="images/magnet_icon.svg" alt="Save">
+                            </button>
+
+                            <button class="search-dropdown">
+                                <img class="knopka_orange_vniz" src="images/knopka_orange_vniz.svg" alt="Dropdown">
+                            </button>
+                        </div>
+
+                        <div class="expanded-content">
+
+                            <div class="news-thumbnail_1container">
+                                <div class="news-thumbnail">
+                                    <img src="images/thumbnail_news.jpg" alt="News Preview">
+                                    <img src="images/thumbnail_news.jpg" alt="News Preview">
+                                </div>
+                            
+                                <div class="news-text-container">
+                                    <p class="news-text">
+                                        Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="news-comment_2container">
+    
+                                <div class="container_time-data">
+                                    <div class="gs-container">
+                                        <div class="gs">GS</div>
+                                        <div class="gamespot">GameSpot</div>
+                                    </div>
+    
+                                    <div class="container_time">
+                                        <img class="icon_calendar" src="images/icon_calendar.svg" alt="">
+                                        <p class="search-source_time">14 februar 2025</p>
+                                        <div class="source_poloska_w"></div>
+                                        <p class="search-time">07:44</p>
+                                    </div>
+                                </div>
+    
+                                <div class="comment-input-container">
+    
+                                    <input class="comment-input" type="text"  
+                                    placeholder="Tell the AI how to use that source...">
+                                    <img class="comment-icon" src="images/krest_na_input.svg" alt="Search Icon" >
+                                </div>
+    
+                                <button class="comment-send">
+                                    <img class="send_icon" src="images/send_icon.svg" alt="Send">
+                                </button>
+    
+                            </div>
+                        </div>
+
+
+                        <div class="search-item">
+                            <input class="search-checkbox" type="checkbox" >
+                            <img class="search-thumbnail" src="images/news_preview.jpg" alt="News Preview">
+                            <div class="search-info">
+                                <p class="search-description"><span class="search-subtitle"> Hyundai India Exports Cross 3.7 Million Vehicles In 25 Years </span> <span class="search-description_none">- Under Torsdagen Flaggar Drottningholm Och Haga Slott På Halv Stång Då Under Torsdagen Flaggar Drottningholm Och Haga Slott På Halv Stång Då...</span></p>
+                            </div>
+                                
+                            <div class="source-container">
+                                <p class="search-source">GameSpot</p>
+                                <div class="source_poloska"></div>
+                                <p class="search-time">07:44</p>
+                            </div>
+
+                            <button class="magnet_button">
+                                <img class="search-magnet" src="images/magnet_icon.svg" alt="Save">
+                            </button>
+
+                            <button class="search-dropdown">
+                                <img class="knopka_orange_vniz" src="images/knopka_orange_vniz.svg" alt="Dropdown">
+                            </button>
+                        </div>
+
+                        <div class="expanded-content">
+
+                            <div class="news-thumbnail_1container">
+                                <div class="news-thumbnail">
+                                    <img src="images/thumbnail_news.jpg" alt="News Preview">
+                                    <img src="images/thumbnail_news.jpg" alt="News Preview">
+                                </div>
+                            
+                                <div class="news-text-container">
+                                    <p class="news-text">
+                                        Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då Under torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång dåUnder torsdagen flaggar Drottningholm och Haga slott på halv stång då prinsessan Birgitta avlidit. Under torsdagen flaggar Drottningholm och Haga slott på halv stång då
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="news-comment_2container">
+    
+                                <div class="container_time-data">
+                                    <div class="gs-container">
+                                        <div class="gs">GS</div>
+                                        <div class="gamespot">GameSpot</div>
+                                    </div>
+    
+                                    <div class="container_time">
+                                        <img class="icon_calendar" src="images/icon_calendar.svg" alt="">
+                                        <p class="search-source_time">14 februar 2025</p>
+                                        <div class="source_poloska_w"></div>
+                                        <p class="search-time">07:44</p>
+                                    </div>
+                                </div>
+    
+                                <div class="comment-input-container">
+    
+                                    <input class="comment-input" type="text"  
+                                    placeholder="Tell the AI how to use that source...">
+                                    <img class="comment-icon" src="images/krest_na_input.svg" alt="Search Icon" >
+                                </div>
+    
+                                <button class="comment-send">
+                                    <img class="send_icon" src="images/send_icon.svg" alt="Send">
+                                </button>
+    
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                                        
+                </div>
+            </div>
+        </section>
+        
+
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+    
